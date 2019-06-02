@@ -1,0 +1,29 @@
+{
+  "config":{
+     "default":"en"
+  },
+  "language":{
+     "en":{
+        "#ml-title":"Welcome to MetaCache",
+        "#ml-desc":"MetaCache is the easiest way to find cached versions of a specific web page.<br/>It can find the latest copy available in Google's web cache, the Wayback Machine, Archive.today and WebCite.",
+        "#ml-footer":"MetaCache 1.0 - <a class='text-muted' style='color: #ffffff; text-decoration: none;' href='https://github.com/Atnode/MetaCache'> Source code on <i class='fab fa-github'></i> GitHub</a>",
+        "#ml-modal-nourl-title":"<i class='fas fa-exclamation-triangle'></i> Oops...",
+        "#ml-modal-nourl-text":"You must enter an address.",
+        "#ml-modal-nourl-btnclose":"Close",
+        "#ml-modal-invalidurl-title":"<i class='fas fa-exclamation-triangle'></i> Oops...",
+        "#ml-modal-invalidurl-text":"Your address is not valid.",
+        "#ml-modal-invalidurl-btnclose":"Close"
+     },
+     "fr":{
+        "#ml-title":"Bienvenue sur MetaCache",
+        "#ml-desc":"MetaCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.<br/>Il peut trouver la dernière copie disponible dans le cache web de Google, de la Wayback Machine, de Archive.today et de WebCite.",
+        "#ml-footer":"MetaCache 1.0 - <a class='text-muted' style='color: #ffffff; text-decoration: none;' href='https://github.com/Atnode/MetaCache'> Code source disponible sur <i class='fab fa-github'></i> GitHub</a>",
+        "#ml-modal-nourl-title":"<i class='fas fa-exclamation-triangle'></i> Oups...",
+        "#ml-modal-nourl-text":"Vous devez entrer une adresse.",
+        "#ml-modal-nourl-btnclose":"Fermer",
+        "#ml-modal-invalidurl-title":"<i class='fas fa-exclamation-triangle'></i> Oups...",
+        "#ml-modal-invalidurl-text":"Votre adresse n'est pas valide.",
+        "#ml-modal-invalidurl-btnclose":"Fermer"
+     }
+  }
+}
