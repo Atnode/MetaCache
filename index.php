@@ -1,15 +1,30 @@
+<?php
+   $lc = ""; 
+   if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
+   	$lc = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+   if($lc == "fr"){
+   	$lang = "fr";
+	$description = "MetaCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.";
+   } else if($lc == "en"){
+   	$lang = "en";
+	$description = "MetaCache is the easiest way to find cached versions of a specific web page.";
+   }
+   else{
+   	$lang = "en";
+   }
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang; ?>">
 
 <head>
-    <meta charset="utf-8" />
-		<title>MetaCache</title>
-		<link rel="shortcut icon" href="img/logo.png">
-    <meta name="description" content="MetaCache is the easiest way to find cached versions of a specific web page." />
-		<meta property="og:title" content="MetaCache" />
-		<meta property="og:image" content="img/logo.png" />
-    <meta property="og:description" content="MetaCache is the easiest way to find cached versions of a specific web page." />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8" />
+	<title>MetaCache</title>
+	<link rel="shortcut icon" href="img/logo.png">
+    <meta name="description" content="<?php echo $description; ?>" />
+	<meta property="og:title" content="MetaCache" />
+	<meta property="og:image" content="img/logo.png" />
+    <meta property="og:description" content="<?php echo $description; ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="css/style.css" rel="stylesheet">
 
@@ -102,15 +117,7 @@
 <script>
     $(document).ready(function() {
     		$('a').tooltip('hide');
-				$.MultiLanguage('lang/metacache.json');
-				
-				var language = window.navigator.userLanguage || window.navigator.language;
-				if (language == "fr") {
-					$.MultiLanguage('lang/metacache.json', 'fr')
-				}
-				else {
-					$.MultiLanguage('lang/metacache.json', 'en')
-				}
+					$.MultiLanguage('lang/metacache.json', '<?php echo $lang; ?>')
     	});
 </script>
 <script src="js/metacache.js" type="text/javascript"></script>
