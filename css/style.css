@@ -42,6 +42,10 @@ body {
 	margin-bottom: auto;
 	margin-top: auto;
 }
+
+.main {
+	visibility: hidden;
+}
 .footer {
 	position: absolute;
 	bottom: 0;
