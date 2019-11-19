@@ -4,7 +4,7 @@
 
 ## Introduction
 EasyCache is the easiest way to find cached versions of a specific web page.  
-It can find the latest copy available in Google's web cache, the Wayback Machine, Archive.today and WebCite.
+It can find the latest copy available in Google's web or AMP cache, in the Wayback Machine, in Archive.today and in WebCite.
 
 ***
 
