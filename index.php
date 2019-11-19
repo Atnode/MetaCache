@@ -58,7 +58,7 @@
 					<span class="input-group-addon" id="basic-addon1">http(s)://</span> <input aria-describedby="basic-addon1" autocomplete="off" autofocus="autofocus" class="form-control" id="url" name="address" placeholder="URL..." type="text">
 				</div><br>
 				<div class="row">
-					<button class="btn btn-default" id="googlecache" type="button"><i class="fab fa-google"></i> Google Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fas fa-archive"></i> Archive.org</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fas fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fas fa-globe"></i> WebCite</button>
+					<button class="btn btn-default" id="googlecache" type="button"><i class="fab fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fab fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fas fa-archive"></i> Archive.org</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fas fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fas fa-globe"></i> WebCite</button>
 				</div>
 			</div>
 		</div>
@@ -96,6 +96,38 @@
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" data-dismiss="modal" id="ml-modal-invalidurl-btnclose" type="button"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="NoAMP" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title" id="ml-modal-noamp-title"></h4>
+				</div>
+				<div class="modal-body">
+					<p id="ml-modal-noamp-text"></p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" id="ml-modal-noamp-btnclose" type="button"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ErrorAMP" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title" id="ml-modal-erroramp-title"></h4>
+				</div>
+				<div class="modal-body">
+					<p id="ml-modal-erroramp-text"></p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" id="ml-modal-erroramp-btnclose" type="button"></button>
 				</div>
 			</div>
 		</div>
