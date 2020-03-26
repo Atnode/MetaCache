@@ -55,7 +55,7 @@
       <div class="jumbotron">
         <h1><?php $translate->__('Welcome to MetaCache'); ?></h1>
         <p><?php $translate->__('MetaCache is the easiest way to find cached versions of a specific web page.'); ?><br>
-        <?php $translate->__('It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix cache.'); ?></p>
+        <?php $translate->__('It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.'); ?></p>
       </div>
       <div class="center">
         <div class="input-group">

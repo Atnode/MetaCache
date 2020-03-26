@@ -4,7 +4,7 @@
 
 ## Introduction
 MetaCache is the easiest way to find cached versions of a specific web page.  
-It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix cache.
+It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.
 
 ***
 

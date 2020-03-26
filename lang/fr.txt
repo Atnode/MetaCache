@@ -1,6 +1,6 @@
 Welcome to MetaCache=Bienvenue sur MetaCache
 MetaCache is the easiest way to find cached versions of a specific web page.=MetaCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.
-It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix cache.=Il peut trouver la dernière copie disponible dans le cache web ou AMP de Google, dans la Wayback Machine, dans Archive.today, WebCite ou encore dans le cache de Wikiwix
+It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.=Il peut trouver la dernière copie disponible dans le cache web ou AMP de Google, dans la Wayback Machine, dans Archive.today, WebCite ou encore dans le cache de Wikiwix
 Your URL...=Votre URL...
 Search for a cached version with:=Rechercher une version en cache avec :
 Google Cache= Cache de Google
