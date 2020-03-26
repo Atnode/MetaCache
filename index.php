@@ -25,14 +25,14 @@
   <meta content="<?php echo $description; ?>" property="og:description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/fontawesome.min.css" rel="stylesheet">
+  <link href="css/fork-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand navbar-brand-centered"><i class="fas fa-save"></i> MetaCache</a>
+        <a class="navbar-brand navbar-brand-centered"><i class="fa fa-save"></i> MetaCache</a>
       </div>
     </div>
   </nav>
@@ -46,7 +46,7 @@
     </div>
     <div class="main">
       <div style="float:right;">
-        <p><b aria-hidden="true" class="fas fa-save" style="font-size: 100px;"></b></p>
+        <p><b aria-hidden="true" class="fa fa-save" style="font-size: 100px;"></b></p>
       </div>
       <div class="jumbotron">
         <h1 id="ml-title"></h1>
@@ -57,7 +57,7 @@
           <span class="input-group-addon" id="basic-addon1">http(s)://</span> <input aria-describedby="basic-addon1" autocomplete="off" autofocus="autofocus" class="form-control" id="url" name="address" placeholder="URL..." type="text">
         </div><br>
         <div class="row">
-          <button class="btn btn-default" id="googlecache" type="button"><i class="fab fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fab fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fas fa-archive"></i> Archive.org</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fas fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fas fa-globe"></i> WebCite</button>
+          <button class="btn btn-default" id="googlecache" type="button"><i class="fa fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fa fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fa fa-archive"></i> Archive.org</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fa fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fa fa-globe"></i> WebCite</button>
         </div>
       </div>
     </div>
