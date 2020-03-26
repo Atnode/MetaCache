@@ -3,17 +3,16 @@
 </div>
 
 ## Introduction
-EasyCache is the easiest way to find cached versions of a specific web page.  
-It can find the latest copy available in Google's web or AMP cache, in the Wayback Machine, in Archive.today and in WebCite.
+MetaCache is the easiest way to find cached versions of a specific web page.  
+It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix cache.
 
 ***
 
 ## Credits
 This project use:  
 - [Bootstrap](https://getbootstrap.com/) with a [Bootswatch](https://bootswatch.com/3/) theme  
-- [Jquery](https://jquery.com)  
-- [Font Awesome](https://fontawesome.com)  
-- [Multi-Language](https://github.com/mingchoi/Multi-Language)  
+- [Jquery](https://jquery.com/)  
+- [Fork Awesome](https://forkaweso.me/)  
 - [Roboto font](https://fonts.google.com/specimen/Roboto)  
 
 ***
