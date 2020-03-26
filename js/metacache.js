@@ -115,3 +115,19 @@ document.getElementById("webcite").onclick = function() {
         $('#NoUrl').modal('show');
     }
 }
+
+// WebCite
+document.getElementById("wikiwix").onclick = function() {
+    if (document.getElementById("url").value != "") {
+        // Test if it's a URL
+        var test = document.getElementById("url").value;
+        if (is_url(test) == true) {
+            var url = "http://archive.wikiwix.com/cache/index2.php?url=" + document.getElementById("url").value;
+            window.open(url);
+        } else {
+            $('#InvalidUrl').modal('show');
+        }
+    } else {
+        $('#NoUrl').modal('show');
+    }
+}

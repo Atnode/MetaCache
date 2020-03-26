@@ -246,6 +246,11 @@
 	margin-left: -80px;
   }
   
+  .gradient {
+	background: linear-gradient(120deg, #464545, #6e6e6e);
+	color: #fff;
+  }
+  
   .center {
 	text-align: center;
 	margin-left: auto;
@@ -264,9 +269,59 @@
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
-	background-color: #375a7f;
   }
   
   .text-white {
 	color: #ffffff;
+  }
+  
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+  }
+  
+  .btn {
+	margin-bottom: 10px;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  .modal {
+	text-align: center;
+	padding: 0!important;
+  }
+  
+  .modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+  }
+  
+  .modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+  }
+  
+  * {
+	scrollbar-color: #464545 #6e6e6e;
+  }
+  
+  *,
+  ::after,
+  ::before {
+	box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #6e6e6e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #464545;
   }
