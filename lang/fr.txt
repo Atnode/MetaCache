@@ -16,4 +16,4 @@ Your address is not valid.=Votre adresse n'est pas valide.
 An AMP version of this page is not available.=Aucune version AMP de cette page n'est disponible.
 Unable to load this URL.=Impossible de charger cette URL.
 We are sorry, yet MetaCache needs JavaScript support to work.=Nous sommes désolé, mais MetaCache a besoin que le support de JavaScript soit activé pour fonctionner.
-Source code available on=Code source disponible sur
+Source code=Code source

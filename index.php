@@ -1,5 +1,5 @@
 <?php
-  $ver = "1.2.0";
+  $ver = "1.2.1";
   require_once('lang/class.translation.php');
   $lc = ""; 
   if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
@@ -23,11 +23,29 @@
 <head>
   <meta charset="utf-8">
   <title>MetaCache</title>
-  <link href="img/logo.png" rel="shortcut icon">
-  <meta content="<?php echo $description; ?>" name="description">
-  <meta content="MetaCache" property="og:title">
-  <meta content="img/logo.png" property="og:image">
-  <meta content="<?php echo $description; ?>" property="og:description">
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="manifest" href="manifest.json" />
+	<meta name="description" content="<?php echo $description; ?>" />
+	<meta property="og:title" content="MetaCache" />
+	<meta property="og:description" content="<?php echo $description; ?>" />
+	<meta name="author" content="MetaCache" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="MetaCache" />
+	<meta property="og:description" content="<?php echo $description; ?>" />
+	<meta property="og:image" content="img/logo.png" />
+	<meta property="og:site_name" content="MetaCache">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="MetaCache">
+	<meta name="twitter:site" content="@Atnode.fr">
+	<meta name="twitter:image" content="img/logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/fork-awesome.min.css" rel="stylesheet">
@@ -37,7 +55,7 @@
   <nav class="navbar navbar-default navbar-fixed-top gradient">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand navbar-brand-centered"><i class="fa fa-save"></i> MetaCache</a>
+        <a class="navbar-brand navbar-brand-centered"><img src="img/logo.png" alt="Logo"> MetaCache</a>
       </div>
     </div>
   </nav>
@@ -70,7 +88,7 @@
   </div><br>
   <footer class="footer gradient">
     <div class="container">
-      <span class="text-muted text-white">MetaCache <?php echo $ver; ?> - <a class='text-muted' href='https://github.com/Atnode/MetaCache' style='color: #ffffff; text-decoration: none;'><?php $translate->__('Source code available on'); ?> <i class='fa fa-github'></i> GitHub</a></span>
+      <span class="text-muted text-white">MetaCache <?php echo $ver; ?> - <a class='text-muted' href='https://github.com/Atnode/MetaCache' style='color: #ffffff; text-decoration: none;'><i class='fa fa-github'></i> <?php $translate->__('Source code'); ?></a></span>
     </div>
   </footer>
   <div class="modal fade" id="NoUrl" role="dialog">
