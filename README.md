@@ -13,7 +13,7 @@ This project use:
 - [Bootstrap](https://getbootstrap.com/) with a [Bootswatch](https://bootswatch.com/3/) theme  
 - [Jquery](https://jquery.com/)  
 - [Fork Awesome](https://forkaweso.me/)  
-- [Roboto font](https://fonts.google.com/specimen/Roboto)  
+- [Lato font](https://fonts.google.com/specimen/Lato)  
 
 ***
 
