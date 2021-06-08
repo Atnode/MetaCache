@@ -19,24 +19,23 @@
   }
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $lang; ?>">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>EasyCache</title>
   <link rel="shortcut icon" href="img/logo.png">
   <link rel="manifest" href="manifest.json" />
-	<meta name="description" content="<?php echo $description; ?>" />
+	<meta name="description" content="EasyCache is the easiest way to find cached versions of a specific web page." />
 	<meta property="og:title" content="EasyCache" />
-	<meta property="og:description" content="<?php echo $description; ?>" />
+	<meta property="og:description" content="EasyCache is the easiest way to find cached versions of a specific web page." />
 	<meta name="author" content="EasyCache" />
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="EasyCache" />
-	<meta property="og:description" content="<?php echo $description; ?>" />
+	<meta property="og:description" content="EasyCache is the easiest way to find cached versions of a specific web page." />
 	<meta property="og:image" content="img/logo.png" />
 	<meta property="og:site_name" content="EasyCache">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="EasyCache">
-	<meta name="twitter:site" content="@Atnode.fr">
 	<meta name="twitter:image" content="img/logo.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
@@ -64,31 +63,31 @@
       <p><b aria-hidden="true" class="fa fa-exclamation-triangle" style="font-size: 100px;"></b></p>
     </div>
     <div class="jumbotron jswarning">
-      <h1><?php $translate->__('We are sorry, yet EasyCache needs JavaScript support to work.'); ?></h1>
+      <h1>We are sorry, yet EasyCache needs JavaScript support to work.</h1>
     </div>
     <div class="main">
       <div style="float:right;">
         <p><b aria-hidden="true" class="fa fa-save" style="font-size: 100px;"></b></p>
       </div>
       <div class="jumbotron">
-        <h1><?php $translate->__('Welcome to EasyCache'); ?></h1>
-        <p><?php $translate->__('EasyCache is the easiest way to find cached versions of a specific web page.'); ?><br>
-        <?php $translate->__('It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.'); ?></p>
+        <h1>Welcome to EasyCache</h1>
+        <p>EasyCache is the easiest way to find cached versions of a specific web page.<br>
+        It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.</p>
       </div>
       <div class="center">
         <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1">http(s)://</span> <input aria-describedby="basic-addon1" autocomplete="off" autofocus="autofocus" class="form-control" id="url" name="address" placeholder="<?php $translate->__('Your URL...'); ?>" type="text">
+          <span class="input-group-addon" id="basic-addon1">http(s)://</span> <input aria-describedby="basic-addon1" autocomplete="off" autofocus="autofocus" class="form-control" id="url" name="address" placeholder="Your URL..." type="text">
         </div><br>
-        <h3><?php $translate->__('Search for a cached version with:'); ?></h3><br>
+        <h3>Search for a cached version with:</h3><br>
         <div class="row">
-          <button class="btn btn-default" id="googlecache" type="button"><i class="fa fa-google"></i> <?php $translate->__('Google Cache'); ?></button> <button class="btn btn-default" id="googleamp" type="button"><i class="fa fa-google"></i> <?php $translate->__('Google AMP Cache'); ?></button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fa fa-archive-org"></i> <?php $translate->__('Wayback Machine'); ?></button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fa fa-archive"></i> <?php $translate->__('Archive.today'); ?></button> <button class="btn btn-default" id="webcite" type="button"><i class="fa fa-globe"></i> <?php $translate->__('WebCite'); ?></button> <button class="btn btn-default" id="wikiwix" type="button"><i class="fa fa-wikipedia-w"></i> <?php $translate->__('Wikiwix’s cache'); ?></button>
+          <button class="btn btn-default" id="googlecache" type="button"><i class="fa fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fa fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fa fa-archive-org"></i> Wayback Machine</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fa fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fa fa-globe"></i> WebCite</button> <button class="btn btn-default" id="wikiwix" type="button"><i class="fa fa-wikipedia-w"></i> Wikiwix’s cache</button>
         </div>
       </div>
     </div>
   </div><br>
   <footer class="footer gradient">
     <div class="container">
-      <span class="text-muted text-white">EasyCache <?php echo $ver; ?> - <a class='text-muted' href='https://github.com/Atnode/EasyCache' style='color: #ffffff; text-decoration: none;'><i class='fa fa-github'></i> <?php $translate->__('Source code'); ?></a></span>
+      <span class="text-muted text-white">EasyCache - <a class='text-muted' href='https://github.com/Atnode/EasyCache' style='color: #ffffff; text-decoration: none;'><i class='fa fa-github'></i> Source code</a></span>
     </div>
   </footer>
   <div class="modal fade" id="NoUrl" role="dialog">
@@ -96,13 +95,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button class="close" data-dismiss="modal" type="button">&times;</button>
-          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> <?php $translate->__('Oops...'); ?></h4>
+          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> Oops...</h4>
         </div>
         <div class="modal-body">
-          <p><?php $translate->__('You must enter an address.'); ?></p>
+          <p>You must enter an address.</p>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-default" data-dismiss="modal" type="button"><?php $translate->__('Fermer'); ?></button>
+          <button class="btn btn-default" data-dismiss="modal" type="button">Fermer</button>
         </div>
       </div>
     </div>
@@ -112,13 +111,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button class="close" data-dismiss="modal" type="button">&times;</button>
-          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> <?php $translate->__('Oops...'); ?></h4>
+          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> Oops...</h4>
         </div>
         <div class="modal-body">
-          <p><?php $translate->__('Your address is not valid.'); ?></p>
+          <p>Your address is not valid.</p>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-default" data-dismiss="modal" type="button"><?php $translate->__('Fermer'); ?></button>
+          <button class="btn btn-default" data-dismiss="modal" type="button">Fermer</button>
         </div>
       </div>
     </div>
@@ -128,13 +127,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button class="close" data-dismiss="modal" type="button">&times;</button>
-          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> <?php $translate->__('Oops...'); ?></h4>
+          <h4 class="modal-title"><i class='fa fa-exclamation-triangle'></i> Oops...</h4>
         </div>
         <div class="modal-body">
-          <p><?php $translate->__('An AMP version of this page is not available.'); ?></p>
+          <p>An AMP version of this page is not available.</p>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-default" data-dismiss="modal" type="button"><?php $translate->__('Fermer'); ?></button>
+          <button class="btn btn-default" data-dismiss="modal" type="button">Fermer</button>
         </div>
       </div>
     </div>
@@ -147,10 +146,10 @@
           <h4 class="modal-title">Google AMP Cache</h4>
         </div>
         <div class="modal-body">
-          <p><?php $translate->__('Unable to load this URL.'); ?></p>
+          <p>Unable to load this URL.</p>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-default" data-dismiss="modal" type="button"><?php $translate->__('Fermer'); ?></button>
+          <button class="btn btn-default" data-dismiss="modal" type="button">Fermer</button>
         </div>
       </div>
     </div>
