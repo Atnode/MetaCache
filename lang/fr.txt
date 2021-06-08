@@ -1,5 +1,5 @@
-Welcome to MetaCache=Bienvenue sur MetaCache
-MetaCache is the easiest way to find cached versions of a specific web page.=MetaCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.
+Welcome to EasyCache=Bienvenue sur EasyCache
+EasyCache is the easiest way to find cached versions of a specific web page.=EasyCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.
 It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.=Il peut trouver la dernière copie disponible dans le cache web ou AMP de Google, dans la Wayback Machine, dans Archive.today, WebCite ou encore dans le cache de Wikiwix
 Your URL...=Votre URL...
 Search for a cached version with:=Rechercher une version en cache avec :
@@ -15,5 +15,5 @@ You must enter an address.=Vous devez entrer une adresse.
 Your address is not valid.=Votre adresse n'est pas valide.
 An AMP version of this page is not available.=Aucune version AMP de cette page n'est disponible.
 Unable to load this URL.=Impossible de charger cette URL.
-We are sorry, yet MetaCache needs JavaScript support to work.=Nous sommes désolé, mais MetaCache a besoin que le support de JavaScript soit activé pour fonctionner.
+We are sorry, yet EasyCache needs JavaScript support to work.=Nous sommes désolé, mais EasyCache a besoin que le support de JavaScript soit activé pour fonctionner.
 Source code=Code source

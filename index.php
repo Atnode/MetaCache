@@ -6,14 +6,14 @@
     $lc = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if($lc == "fr"){
       $lang = "fr";
-      $description = "MetaCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.";
+      $description = "EasyCache est l'outil le plus simple pour trouver les versions mises en cache d'une page Web spécifique.";
     } else if($lc == "en") {
       $lang = "en";
-      $description = "MetaCache is the easiest way to find cached versions of a specific web page.";
+      $description = "EasyCache is the easiest way to find cached versions of a specific web page.";
     }
     else {
       $lang = "en";
-      $description = "MetaCache is the easiest way to find cached versions of a specific web page.";
+      $description = "EasyCache is the easiest way to find cached versions of a specific web page.";
     }
     $translate = new Translator($lang);
   }
@@ -22,20 +22,20 @@
 <html lang="<?php echo $lang; ?>">
 <head>
   <meta charset="utf-8">
-  <title>MetaCache</title>
+  <title>EasyCache</title>
   <link rel="shortcut icon" href="img/logo.png">
   <link rel="manifest" href="manifest.json" />
 	<meta name="description" content="<?php echo $description; ?>" />
-	<meta property="og:title" content="MetaCache" />
+	<meta property="og:title" content="EasyCache" />
 	<meta property="og:description" content="<?php echo $description; ?>" />
-	<meta name="author" content="MetaCache" />
+	<meta name="author" content="EasyCache" />
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="MetaCache" />
+	<meta property="og:title" content="EasyCache" />
 	<meta property="og:description" content="<?php echo $description; ?>" />
 	<meta property="og:image" content="img/logo.png" />
-	<meta property="og:site_name" content="MetaCache">
+	<meta property="og:site_name" content="EasyCache">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="MetaCache">
+	<meta name="twitter:title" content="EasyCache">
 	<meta name="twitter:site" content="@Atnode.fr">
 	<meta name="twitter:image" content="img/logo.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
@@ -55,7 +55,7 @@
   <nav class="navbar navbar-default navbar-fixed-top gradient">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand navbar-brand-centered"><img src="img/logo.png" alt="Logo"> MetaCache</a>
+        <a class="navbar-brand navbar-brand-centered"><img src="img/logo.png" alt="Logo"> EasyCache</a>
       </div>
     </div>
   </nav>
@@ -64,15 +64,15 @@
       <p><b aria-hidden="true" class="fa fa-exclamation-triangle" style="font-size: 100px;"></b></p>
     </div>
     <div class="jumbotron jswarning">
-      <h1><?php $translate->__('We are sorry, yet MetaCache needs JavaScript support to work.'); ?></h1>
+      <h1><?php $translate->__('We are sorry, yet EasyCache needs JavaScript support to work.'); ?></h1>
     </div>
     <div class="main">
       <div style="float:right;">
         <p><b aria-hidden="true" class="fa fa-save" style="font-size: 100px;"></b></p>
       </div>
       <div class="jumbotron">
-        <h1><?php $translate->__('Welcome to MetaCache'); ?></h1>
-        <p><?php $translate->__('MetaCache is the easiest way to find cached versions of a specific web page.'); ?><br>
+        <h1><?php $translate->__('Welcome to EasyCache'); ?></h1>
+        <p><?php $translate->__('EasyCache is the easiest way to find cached versions of a specific web page.'); ?><br>
         <?php $translate->__('It can find the latest available copy in Google’s web cache or AMP cache, in the Wayback Machine, in Archive.today, in WebCite or in the Wikiwix’s cache.'); ?></p>
       </div>
       <div class="center">
@@ -88,7 +88,7 @@
   </div><br>
   <footer class="footer gradient">
     <div class="container">
-      <span class="text-muted text-white">MetaCache <?php echo $ver; ?> - <a class='text-muted' href='https://github.com/Atnode/MetaCache' style='color: #ffffff; text-decoration: none;'><i class='fa fa-github'></i> <?php $translate->__('Source code'); ?></a></span>
+      <span class="text-muted text-white">EasyCache <?php echo $ver; ?> - <a class='text-muted' href='https://github.com/Atnode/EasyCache' style='color: #ffffff; text-decoration: none;'><i class='fa fa-github'></i> <?php $translate->__('Source code'); ?></a></span>
     </div>
   </footer>
   <div class="modal fade" id="NoUrl" role="dialog">
@@ -164,7 +164,7 @@
       $('a').tooltip('hide');
     });
   </script> 
-  <script src="js/metacache.js" type="text/javascript"></script> 
+  <script src="js/EasyCache.js" type="text/javascript"></script> 
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
