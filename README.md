@@ -1,5 +1,5 @@
 <div>
-  <h3 align="center"><img src="https://raw.githubusercontent.com/Atnode/EasyCache/master/img/logo.png" width="100"/><br>EasyCache</h3>
+  <h3 align="center"><img src="https://raw.githubusercontent.com/Atnode/EasyCache/master/img/favicon-96x96.png" width="100"/><br>EasyCache</h3>
 </div>
 
 ## Introduction
@@ -10,7 +10,7 @@ It can find the latest available copy in Google’s web cache or AMP cache, in t
 
 ## Credits
 This project use:  
-- [Bootstrap](https://getbootstrap.com/) with a [Bootswatch](https://bootswatch.com/3/) theme  
+- [Bootstrap](https://getbootstrap.com/)  
 - [Jquery](https://jquery.com/)  
 - [Fork Awesome](https://forkaweso.me/)  
 - [Lato font](https://fonts.google.com/specimen/Lato)  
