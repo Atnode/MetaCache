@@ -26,7 +26,6 @@ document.getElementById("googlecache").onclick = function() {
 }
 
 // Google AMP Cache
-// Function from: https://github.com/corbindavenport/cacheview/blob/master/js/cache.js
 document.getElementById("googleamp").onclick = function() {
     if (document.getElementById("url").value != "") {
         // Test if it's a URL
@@ -34,8 +33,8 @@ document.getElementById("googleamp").onclick = function() {
         if (is_url(test) == true) {
             // Create the window first, because creating it later will trigger a popup block
             var ampWindow = window.open();
-            ampWindow.document.write("<html><head><title>Google AMP Cache</title><meta name='viewport' content='width=400, initial-scale=1'></head><body><h1 style='font-family: Arial; text-align: center; margin-top:20%;'>...</h1></body></html>");
-            $.get("https://cors-anywhere.herokuapp.com/" + document.getElementById("url").value, function(data) {
+            ampWindow.document.write("<html><head><title>Google AMP Cache</title><meta name='viewport' content='width=400, initial-scale=1'></head><body><h1 style='font-family: Arial; text-align: center; margin-top:20%;'>Loading, please wait...</h1></body></html>");
+            $.get("https://cors.bridged.cc/" + document.getElementById("url").value, function(data) {
                 if ($(data).filter('link[rel="amphtml"]').attr("href") != undefined) {
                     var url = $(data).filter('link[rel="amphtml"]').attr("href");
                     // Convert scheme-relative URLs into HTTPS URLs
