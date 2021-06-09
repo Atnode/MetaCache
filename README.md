@@ -1,5 +1,5 @@
 <div>
-  <h3 align="center"><img src="https://raw.githubusercontent.com/Atnode/EasyCache/master/img/favicon-96x96.png" width="100"/><br>EasyCache</h3>
+  <h3 align="center"><img src="https://raw.githubusercontent.com/Atnode/EasyCache/main/img/favicon-96x96.png" width="100"/><br>EasyCache</h3>
 </div>
 
 ## Introduction
