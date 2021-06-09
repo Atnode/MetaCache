@@ -1,126 +1,127 @@
 @import url("lato.css");
-  body, html {
-    font-family: Lato, sans-serif;
-  }
+body, html {
+	font-family: Lato, sans-serif;
+}
 
-  html {
+html {
 	position: relative;
 	min-height: 100%;
-  }
-  
-  body {
+}
+
+body {
 	padding-top: 90px;
 	margin-bottom: 60px;
 	font-size: 15px;
-  }
-  
-  .navbar-brand-centered {
-	position: absolute;
-	left: 50%;
-	display: block;
-	text-align: center;
-  }
-  
-  .navbar>.container .navbar-brand-centered,
-  .navbar>.container-fluid .navbar-brand-centered {
-	margin-left: -87px;
-  }
+}
 
-  .navbar-brand > img {
-	height: 40px;
-	width: auto;
-	display: inline-block;
-	margin-bottom: 5px;
+.navbar-header {
+	float: left;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
 }
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
 .navbar-brand {
-	font-size: 20px;
-	line-height: 40px;
+	float: none;
 }
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
-.navbar-brand {
-	height: 50px;
-	padding: 10px 15px;
-}
-  
-  .gradient {
+
+.gradient {
 	background: linear-gradient(120deg, #464545, #6e6e6e);
 	color: #fff;
-  }
-  
-  .center {
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.center {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-top: auto;
-  }
-  
-  .main {
+}
+
+.main {
 	visibility: hidden;
-  }
-  
-  .footer {
-	position: absolute;
-	bottom: 0;
+}
+
+.form-control {
+	display: block;
 	width: 100%;
-	height: 60px;
-	line-height: 60px;
-  }
-  
-  .text-white {
-	color: #ffffff;
-  }
-  
-  .navbar-default .navbar-brand:hover,
-  .navbar-default .navbar-brand:focus {
-	color: #ffffff;
-  }
-  
-  .btn {
+	height: 45px;
+	padding: 10px 15px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	background-image: none;
+	border-radius: 4px;
+}
+
+.btn {
+	padding: 10px 15px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	border-radius: 4px;
 	margin-bottom: 10px;
 	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  }
-  
-  .modal {
+}
+
+.modal {
 	text-align: center;
 	padding: 0!important;
-  }
-  
-  .modal:before {
+}
+
+.modal:before {
 	content: '';
 	display: inline-block;
 	height: 100%;
 	vertical-align: middle;
 	margin-right: -4px;
-  }
-  
-  .modal-dialog {
+}
+
+.modal-dialog {
 	display: inline-block;
 	text-align: left;
 	vertical-align: middle;
-  }
-  
-  * {
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+
+* {
 	scrollbar-color: #464545 #6e6e6e;
-  }
-  
-  *,
-  ::after,
-  ::before {
+}
+
+*, ::after, ::before {
 	box-sizing: border-box;
-  }
-  
-  ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
 	width: 12px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
 	background: #6e6e6e;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
 	background: #464545;
-  }
+}

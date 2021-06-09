@@ -1,9 +1,9 @@
 {
-    "name": "MetaCaChe",
-    "short_name": "MetaCache",
+    "name": "EasyCache",
+    "short_name": "EasyCache",
     "start_url": "/",
     "theme_color": "#464545",
-    "background_color": "#222222",
+    "background_color": "#ffffff",
     "display": "standalone",
     "icons": [
         {
