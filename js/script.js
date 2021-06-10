@@ -114,7 +114,7 @@ document.getElementById("archivetoday").onclick = function() {
 	if (document.getElementById("url").value != "") {
 		var test = document.getElementById("url").value;
 		if (is_url(test) == true) {
-			var url = "http://archive.ph/" + document.getElementById("url").value;
+			var url = "http://archive.ph/newest/" + document.getElementById("url").value;
 			window.open(url);
 		} else {
 			$('#InvalidUrl').modal('show');
@@ -143,6 +143,20 @@ document.getElementById("wikiwix").onclick = function() {
 		var test = document.getElementById("url").value;
 		if (is_url(test) == true) {
 			var url = "http://archive.wikiwix.com/cache/index2.php?url=" + document.getElementById("url").value;
+			window.open(url);
+		} else {
+			$('#InvalidUrl').modal('show');
+		}
+	} else {
+		$('#NoUrl').modal('show');
+	}
+}
+// Memento
+document.getElementById("memento").onclick = function() {
+	if (document.getElementById("url").value != "") {
+		var test = document.getElementById("url").value;
+		if (is_url(test) == true) {
+			var url = "https://timetravel.mementoweb.org/reconstruct/" + document.getElementById("url").value;
 			window.open(url);
 		} else {
 			$('#InvalidUrl').modal('show');
