@@ -73,8 +73,8 @@ document.getElementById("bingcache").onclick = function() {
 						const attr = div.getAttribute('u');
 						if (attr) {
 							const params = attr.split('|');
-							const url = `http://cc.bingj.com/cache.aspx?q=url:${encodeURIComponent(url)}&d=${params[2]}&mkt=en-WW&setlang=en-US&w=${params[3]}`;
-							bingWindow.location.href = url;
+							const cacheUrl = `http://cc.bingj.com/cache.aspx?q=url:${encodeURIComponent(url)}&d=${params[2]}&mkt=en-WW&setlang=en-US&w=${params[3]}`;
+							bingWindow.location.href = cacheUrl;
 						} else {
 							bingWindow.close();
 							$('#NoBingCache').modal('show');
