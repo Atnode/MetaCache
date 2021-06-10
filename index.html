@@ -60,7 +60,7 @@
         </div><br>
         <h3>Search for a cached version with:</h3><br>
         <div class="row">
-          <button class="btn btn-default" id="googlecache" type="button"><i class="fa fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fa fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fa fa-archive-org"></i> Wayback Machine</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fa fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fa fa-globe"></i> WebCite</button> <button class="btn btn-default" id="wikiwix" type="button"><i class="fa fa-wikipedia-w"></i> Wikiwix’s cache</button>
+          <button class="btn btn-default" id="googlecache" type="button"><i class="fa fa-google"></i> Google Cache</button> <button class="btn btn-default" id="googleamp" type="button"><i class="fa fa-google"></i> Google AMP Cache</button> <button class="btn btn-default" id="bingcache" type="button"><i class="fa fa-archive"></i> Bing Cache</button> <button class="btn btn-default" id="archiveorg" type="button"><i class="fa fa-archive-org"></i> Wayback Machine</button> <button class="btn btn-default" id="archivetoday" type="button"><i class="fa fa-archive"></i> Archive.today</button> <button class="btn btn-default" id="webcite" type="button"><i class="fa fa-globe"></i> WebCite</button> <button class="btn btn-default" id="wikiwix" type="button"><i class="fa fa-wikipedia-w"></i> Wikiwix’s cache</button>
         </div>
       </div>
     </div>
@@ -111,6 +111,22 @@
         </div>
         <div class="modal-body">
           <p>An AMP version of this page is not available.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="NoBingCache" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal" type="button">&times;</button>
+          <h4 class="modal-title"><i class="fa fa-exclamation-triangle"></i> Oops...</h4>
+        </div>
+        <div class="modal-body">
+          <p>This page is not available in the Bing cache.</p>
         </div>
         <div class="modal-footer">
           <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
