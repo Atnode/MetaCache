@@ -114,7 +114,7 @@ document.getElementById("archivetoday").onclick = function() {
 	if (document.getElementById("url").value != "") {
 		var test = document.getElementById("url").value;
 		if (is_url(test) == true) {
-			var url = "http://archive.ph/newest/" + document.getElementById("url").value;
+			var url = "http://archive.is/newest/" + document.getElementById("url").value;
 			window.open(url);
 		} else {
 			$('#InvalidUrl').modal('show');
